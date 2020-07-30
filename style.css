@@ -1,0 +1,428 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/* Main styling* */
+html,
+body {
+ font-family: 'Segoe UI',Tahoma , Verdana, Geneva, Tahoma, sans-serif; 
+ line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+
+/* nav */
+#navbar {
+  background-color: tomato;
+  color: #fff; 
+  overflow: hidden;
+  border: none;
+  max-height: 65px;
+}
+
+#navbar a {
+  color: white;
+  max-height: 65px;
+}
+
+#navbar .logo{
+  float: left;
+  padding: 20px;
+}
+
+#navbar ul{
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float:left;
+}
+
+
+#navbar ul li a{
+  padding: 20px;
+  display:block;
+  text-align: center;
+}
+
+#navbar ul li a:hover{
+  color: orange;
+  border: 1px solid darkorange; 
+  /* animation-delay: 2s; */
+  
+}
+
+/* showcase */
+#showcase {
+  background: url('../cady.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: tomato;
+  padding-top: 120px;
+  text-align: center;
+}
+
+#showcase .showcase-content h1{
+  line-height: 1.5rem;
+  font-size: 28px;
+  margin: 10px;
+  padding:0px;
+}
+
+#showcase .showcase-content p{
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background-color:tomato;
+  font-size:17px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: rgb(80, 46, 46);
+}
+
+/* home info */
+
+.info-img {
+  min-height: 350px;
+  display: flex;;
+  opacity: 0.8;
+}
+
+#home-info .info-img-1 {
+  min-height: 100%;
+  width: 100%;
+  background: url('../unnamed.jpg') no-repeat center/cover;
+}
+
+#home-info .info-img-2 {
+  min-height: 100%;
+  width: 100%;
+  background: url('../45003645-colorful-decoration-of-kids-birthday-party-table-with-popcorn-and-sweets.jpg') no-repeat center/cover;
+}
+
+#home-info .info-content{
+  border: 1px dotted rgb(122, 211, 144);
+  padding: 50px 30px;
+  margin: auto;
+  text-align: center; 
+  max-width: auto;
+  max-height: 400px;
+  color: rgb(61, 60, 60);  
+}
+
+#home-info .info-content h2{
+  line-height: 1.5rem;
+  font-size: 28px;
+}
+
+#home-info .info-content p{
+  line-height: 1.5rem;
+  font-size: 15px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#home-info .info-content p h1 {font-size: 2rem;}
+
+/* features */
+
+#features {
+  width:auto;
+}
+
+#features h3{
+  padding-bottom: 0;
+}
+
+#features p{
+  line-height: 1.5rem;
+  font-size: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 40px 0;
+  text-align: center;
+  border:1px dotted rgb(122, 211, 144);
+  box-sizing: border-box;
+  color: rgb(61, 60, 60);
+}
+
+.box i{
+  margin-bottom:10px;}
+
+.bg-primary1 {
+  background: rgb(255, 253, 225);
+}
+
+.bg-light {background: #f4ffb7}
+
+.clr{clear: both;}
+
+/*footer*/
+
+#main-footer{
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background:rgb(122, 211, 144);
+}
+#main-footer .main-footer_1{
+margin-top:140px;
+}
+
+.fa-candy-cane{color:rgb(122, 211, 144)}
+
+.fa-leaf {color:rgb(0, 247, 255)}
+
+.fa-cookie-bite{color:rgb(122, 211, 144)}
+
+
+
+/*about-info*/
+#about-info .about-img{
+  background: url('../cady.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+
+
+#about-info .container .info-left{
+  color: tomato;
+  padding-top: 40px;
+  text-align: center;
+}
+
+
+#about-info .container .info-left h1{
+line-height: 1.5rem;
+font-size: 28px;
+margin: 10px;
+padding-top: 25px;
+}
+
+#about-info .container .info-left .test{
+  background: url('https://media-cdn.tripadvisor.com/media/photo-s/09/32/c6/2c/jackson-candy-and-fudge.jpg') no-repeat center;
+  height: 230px;
+  width: 450px;
+  border-radius: 8px;
+  margin:0 auto;
+
+}
+
+
+#about-info .container .info-left p{
+  line-height: 1.5rem;
+  font-size: 15px;
+  width: 550px;
+  padding-top: 20px;
+  margin:0 auto;
+}
+
+
+
+#testimonials .container{
+  color: tomato;
+  text-align: center;
+
+}
+
+
+#testimonials .container-img{
+  background: url('../old_fashioned_candy.jpg') no-repeat center center/cover;
+  height: 600px;
+  opacity: 80%;
+}
+
+
+#testimonials .container h2{
+  padding-top: 90px;
+  line-height: 1.5rem;
+  font-size: 28px;
+}
+
+
+#testimonials .container .bg-primary{
+  padding: 10px;
+  border: 3px solid tomato;
+  background: #f4ffb7;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 14px;
+  text-align: center; 
+  max-width: 600px;
+  max-height: 380px;
+  line-height: 1.35rem;
+    font-size: 14.5px;
+}
+
+#testimonials .container .bg-primary:hover {
+  background-color:white;
+}
+
+#testimonials .container .bg-primary p{
+display:block;
+width:500px;
+margin:0 auto;
+padding-bottom: 20px;
+}
+
+#testimonials .container .bg-primary i{
+  padding-top:10px;
+}
+
+.fa-comment-dots {color:rgb(122, 211, 144)}
+
+
+
+
+
+
+/*contact-form*/
+#contact-form {
+  background: url('../cady.jpg') no-repeat center center/cover;
+  height: 500px;
+}
+
+#contact-form .container{
+color: tomato;
+text-align: center;
+}
+
+#contact-form .container h1{
+  line-height: 1.5rem;
+  font-size: 28px;
+  padding-top:120px;
+  text-align: center;
+}
+
+#contact-form .container p{
+  line-height: 1.5rem;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/*컨택트박스*/
+
+#contact-form .container .form-parent{
+  line-height: 30px;
+  width: 340px;
+  margin: auto;
+
+
+}
+
+#contact-form .container .form-container{
+  max-width: 200px;
+  display: flex;
+  text-align: left;
+}
+
+
+.form-label{
+  display: flex;
+  margin-right: 6px;
+  margin-left: 50px;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+#contact-form .container .form-group{
+  display: flex;
+  flex-direction: column;
+line-height: 30px;
+font-size: 12px;
+justify-content: flex-end;
+padding-bottom: 8px;
+  
+}
+
+
+
+#contact-form .container .form-group input{
+  margin-top:3px;
+  border: 1px dotted tomato;
+  background-color: wheat;
+  border-radius: 5x;
+  padding: 4px;
+}
+
+#contact-form .container .form-group textarea{
+  margin-top:4px;
+  border: 1px dotted tomato;
+  background-color: wheat;
+  border-radius: 5x;
+  padding: 4px;
+  height: 50px;
+  resize: none;
+}
+
+
+
+
+#contact-form .container button{
+  padding: 8px 55px;
+  margin-top: 5px;
+  border: none;
+  }
+
+
+
+
+#contact-info .container .box_1{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  background-color: khaki;
+  color:  rgb(122, 211, 144);  
+  padding-top: 40px;  
+  }
+
+#contact-info .container h3{
+  line-height: 1.5rem;
+  font-size: 18px;
+  padding-bottom: 0px;
+  }
+
+#contact-info .container p{
+padding-top: 0;
+line-height: 1.5rem;
+font-size: 14px;
+}
+
+#contact-info .container .box_1:hover{
+  color: tomato;
+  border:1.5px dotted rgb(122, 211, 144);
+  box-sizing: border-box;
+}
